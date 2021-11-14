@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./Brand.css";
-import Services from "../data/Services";
+import Services from "../../data/Services";
 
 const Brand = () => {
   return (
@@ -11,7 +11,7 @@ const Brand = () => {
             return (
               <div className="imgHolder" key={entries}>
                 <img src={service.imgSrc} alt="" />
-                <h3>{service.text}</h3>
+                <h4>{service.text}</h4>
               </div>
             );
           })}
@@ -23,20 +23,19 @@ const Brand = () => {
 };
 
 const Container = styled.div`
-  background: rgb(235, 238, 240);
-  min-height: 20vh;
+  min-height: 25vh;
   margin-top: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
   .brandsContainer {
-    width: 114rem;
+    max-width: 114rem;
     overflow: hidden;
 
     .line {
-      margin-top: 1.5rem;
-      border-bottom: 0.15rem solid #999999;
+      margin-top: 2rem;
+      border-bottom: 0.15rem solid #c3c3c3;
     }
 
     .brands {
@@ -55,7 +54,7 @@ const Container = styled.div`
           display: block;
         }
 
-        h3 {
+        h4 {
           margin-top: 1.5rem;
           text-align: center;
         }

@@ -40,22 +40,27 @@ h4 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 200%;
-  color: #696969;
+  color: #949494;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #949494;
+  transition: all .3s ease-out;
+
+  &:hover {
+    color: #EF5661;
+  }
 }
 
 img {
