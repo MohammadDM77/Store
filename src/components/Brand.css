@@ -1,0 +1,38 @@
+@keyframes brandAnim {
+  12.5% {
+    transform: translateX(0rem);
+  }
+  16.66% {
+    transform: translateX(19rem);
+  }
+  29.16% {
+    transform: translateX(19rem);
+  }
+  33.32% {
+    transform: translateX(38rem);
+  }
+  45.83% {
+    transform: translateX(38rem);
+  }
+  50% {
+    transform: translateX(57rem);
+  }
+  62.49% {
+    transform: translateX(57rem);
+  }
+  66.64% {
+    transform: translateX(76rem);
+  }
+  79.15% {
+    transform: translateX(76rem);
+  }
+  83.3% {
+    transform: translateX(95rem);
+  }
+  95.81% {
+    transform: translateX(95rem);
+  }
+  100% {
+    transform: translateX(114rem);
+  }
+}
