@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import instaLogo from "../Img/insta.svg";
-import telegramLogo from "../Img/telegram.png";
+import instaLogo from "../../Img/insta.svg";
+import telegramLogo from "../../Img/telegram.png";
 
 const ContactUs = () => {
   return (

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import Brand from "../components/footer/Brand";
 import AboutUs from "../components/footer/AboutUs";
-import ContactUs from "../components/ContactUs";
+import ContactUs from "../components/footer/ContactUs";
 
 const Footer = () => {
   return (
